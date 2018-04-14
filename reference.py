@@ -62,6 +62,9 @@ type(None)      # returns 'NoneType'
 isinstance(2.0, int)            # returns False
 isinstance(2.0, (int, float))   # returns True
 
+weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thurday", "Friday", "Saturday"]
+isinstance(test, list)          # returns True
+
 # convert an object to a given type
 float(2)
 int(2.9)
