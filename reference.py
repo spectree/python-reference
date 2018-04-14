@@ -117,6 +117,10 @@ not False
 False or not False and True     # evaluation order: not, and, or
 
 
+# & operator, python do not have short-circuit opeator 
+5 > 3 & 5 < 3
+5 < 3 & 5 > 3
+
 
 ### CONDITIONAL STATEMENTS ###
 
